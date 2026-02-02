@@ -1,8 +1,6 @@
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer id="contact" className="bg-forge-dark border-t border-border">
+  return <footer id="contact" className="bg-forge-dark border-t border-border">
       {/* Contact Section */}
       <div className="container py-16 md:py-20">
         <div className="text-center mb-12">
@@ -16,10 +14,7 @@ const Footer = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Phone */}
-          <a
-            href="tel:+33600000000"
-            className="card-forge p-6 rounded-xl text-center group"
-          >
+          <a href="tel:+33600000000" className="card-forge p-6 rounded-xl text-center group">
             <div className="inline-flex items-center justify-center w-14 h-14 bg-primary/10 rounded-full mb-4 group-hover:bg-primary/20 transition-colors">
               <Phone className="h-6 w-6 text-primary" />
             </div>
@@ -30,10 +25,7 @@ const Footer = () => {
           </a>
 
           {/* Email */}
-          <a
-            href="mailto:contact@ferronnerie-tornato.fr"
-            className="card-forge p-6 rounded-xl text-center group"
-          >
+          <a href="mailto:contact@ferronnerie-tornato.fr" className="card-forge p-6 rounded-xl text-center group">
             <div className="inline-flex items-center justify-center w-14 h-14 bg-primary/10 rounded-full mb-4 group-hover:bg-primary/20 transition-colors">
               <Mail className="h-6 w-6 text-primary" />
             </div>
@@ -51,8 +43,8 @@ const Footer = () => {
             <h3 className="font-display text-lg font-semibold text-foreground mb-2">
               Adresse
             </h3>
-            <p className="text-muted-foreground text-sm">
-              Zone Artisanale<br />
+            <p className="text-muted-foreground text-sm">Zone Artisanale Loup à loup,
+83570 Cotignac<br />
               83570 Cotignac
             </p>
           </div>
@@ -84,8 +76,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
