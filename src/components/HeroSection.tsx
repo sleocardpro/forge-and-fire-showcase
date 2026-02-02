@@ -23,12 +23,7 @@ const HeroSection = () => {
           <span className="text-primary">et du Feu</span> à Cotignac
         </h1>
         
-        <p className="font-body text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto mb-10 opacity-0 animate-fade-in" style={{
-        animationDelay: "0.4s"
-      }}>Création sur mesure pour particuliers et professionnels dans le Var et alentours.
-Escaliers • Verrières • Portails • Mobilier<br className="hidden md:block" />
-          <span className="text-foreground font-medium">Escaliers • Verrières • Portails • Mobilier</span>
-        </p>
+        
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in" style={{
         animationDelay: "0.6s"
