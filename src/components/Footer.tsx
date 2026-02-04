@@ -32,7 +32,7 @@ const Footer = () => {
             <h3 className="font-display text-lg font-semibold text-foreground mb-2">
               Email
             </h3>
-            <p className="text-muted-foreground text-sm">contact@ferronnerie-tornato.fr</p>
+            <p className="text-muted-foreground text-sm">ferronnerietornato@gmail.com</p>
           </a>
 
           {/* Address with Map */}
@@ -43,8 +43,8 @@ const Footer = () => {
             <h3 className="font-display text-lg font-semibold text-foreground mb-2">
               Adresse
             </h3>
-            <p className="text-muted-foreground text-sm mb-3">
-              Zone Artisanale Loup à Loup<br />
+            <p className="text-muted-foreground text-sm mb-3">Zone Artisanale Loup à Loup, Lot 15
+83570 Cotignac<br />
               83570 Cotignac
             </p>
             <div className="rounded-lg overflow-hidden border border-border">
@@ -62,8 +62,8 @@ const Footer = () => {
             <h3 className="font-display text-lg font-semibold text-foreground mb-2">
               Horaires
             </h3>
-            <p className="text-muted-foreground text-sm">
-              Lun - Ven : 8h - 18h<br />
+            <p className="text-muted-foreground text-sm">Lun - Ven : 7h30 - 18h
+Sam : Sur RDV<br />
               Sam : Sur RDV
             </p>
           </div>
