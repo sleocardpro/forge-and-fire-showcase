@@ -21,7 +21,7 @@ const Footer = () => {
             <h3 className="font-display text-lg font-semibold text-foreground mb-2">
               Téléphone
             </h3>
-            <p className="text-primary font-medium">06 00 00 00 00</p>
+            <p className="text-primary font-medium">06 40 40 62 87</p>
           </a>
 
           {/* Email */}
@@ -48,17 +48,9 @@ const Footer = () => {
               83570 Cotignac
             </p>
             <div className="rounded-lg overflow-hidden border border-border">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.5!2d6.15!3d43.53!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ce9d0e3f2c9e1f%3A0x0!2sCotignac%2C%20France!5e0!3m2!1sfr!2sfr!4v1"
-                width="100%"
-                height="120"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Localisation Ferronnerie Tornato"
-                className="grayscale hover:grayscale-0 transition-all duration-300"
-              />
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.5!2d6.15!3d43.53!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ce9d0e3f2c9e1f%3A0x0!2sCotignac%2C%20France!5e0!3m2!1sfr!2sfr!4v1" width="100%" height="120" style={{
+              border: 0
+            }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Localisation Ferronnerie Tornato" className="grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
           </div>
 
