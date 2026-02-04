@@ -1,35 +1,27 @@
 import { Pencil, Ruler, Hammer, CheckCircle } from "lucide-react";
-
-const steps = [
-  {
-    icon: Pencil,
-    title: "Écoute & Croquis",
-    description: "Nous échangeons sur votre projet. Je réalise des croquis 3D ou sur papier pour concrétiser votre vision.",
-  },
-  {
-    icon: Ruler,
-    title: "Conception",
-    description: "Prise de mesures sur site et conception technique détaillée de votre pièce sur-mesure.",
-  },
-  {
-    icon: Hammer,
-    title: "Fabrication",
-    description: "Travail du métal en atelier : découpe, soudure, forge, finitions avec un soin artisanal.",
-  },
-  {
-    icon: CheckCircle,
-    title: "Pose & Livraison",
-    description: "Installation professionnelle chez vous et vérification finale pour une satisfaction totale.",
-  },
-];
-
+const steps = [{
+  icon: Pencil,
+  title: "Écoute & Croquis",
+  description: "Nous échangeons sur votre projet. Je réalise des croquis 3D ou sur papier pour concrétiser votre vision."
+}, {
+  icon: Ruler,
+  title: "Conception",
+  description: "Prise de mesures sur site et conception technique détaillée de votre pièce sur-mesure."
+}, {
+  icon: Hammer,
+  title: "Fabrication",
+  description: "Travail du métal en atelier : découpe, soudure, forge, finitions avec un soin artisanal."
+}, {
+  icon: CheckCircle,
+  title: "Pose & Livraison",
+  description: "Installation professionnelle chez vous et vérification finale pour une satisfaction totale."
+}];
 const ProcessSection = () => {
-  return (
-    <section id="processus" className="py-20 md:py-28 bg-secondary/50">
+  return <section id="processus" className="py-20 md:py-28 bg-secondary/50">
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="section-title text-foreground mb-4">
-            Mon <span className="text-primary">Processus</span>
+            Mon <span className="text-primary">processus</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             De l'idée à la réalisation, je vous accompagne à chaque étape pour créer une pièce unique qui vous ressemble.
@@ -37,12 +29,9 @@ const ProcessSection = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {steps.map((step, index) => (
-            <div key={index} className="relative">
+          {steps.map((step, index) => <div key={index} className="relative">
               {/* Connecting line */}
-              {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-10 left-[60%] w-full h-0.5 bg-gradient-to-r from-primary/50 to-transparent" />
-              )}
+              {index < steps.length - 1 && <div className="hidden lg:block absolute top-10 left-[60%] w-full h-0.5 bg-gradient-to-r from-primary/50 to-transparent" />}
               
               <div className="card-forge p-6 rounded-xl text-center h-full">
                 {/* Step number */}
@@ -62,12 +51,9 @@ const ProcessSection = () => {
                   {step.description}
                 </p>
               </div>
-            </div>
-          ))}
+            </div>)}
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ProcessSection;
