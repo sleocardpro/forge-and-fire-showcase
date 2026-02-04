@@ -16,8 +16,8 @@ const services = [{
   description: "Garde-corps design pour escaliers, terrasses et balcons. Sécurité et esthétisme.",
   image: gardeCorpsImg
 }, {
-  title: "Mobilier",
-  description: "Tables, étagères, consoles. Pièces uniques sur mesure en métal.",
+  title: "Escaliers & Mobilier",
+  description: "Escaliers design, tables, étagères, consoles. Pièces uniques sur mesure en métal.",
   image: mobilierImg
 }];
 const ServicesSection = () => {
