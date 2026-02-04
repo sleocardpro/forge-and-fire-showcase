@@ -1,22 +1,23 @@
 import verriereImg from "@/assets/gallery-verriere.jpg";
-import escalierImg from "@/assets/gallery-escalier.jpg";
 import portailImg from "@/assets/gallery-portail.jpg";
+import gardeCorpsImg from "@/assets/gallery-garde-corps.jpg";
 import mobilierImg from "@/assets/gallery-mobilier.jpg";
+
 const services = [{
   title: "Verrières & Cloisons",
   description: "Style atelier d'artiste, luminosité et modernité pour votre intérieur.",
   image: verriereImg
 }, {
-  title: "Escaliers Design",
-  description: "Hélicoïdal, limon central, marches suspendues. Votre escalier unique.",
-  image: escalierImg
-}, {
-  title: "Portails & Garde-corps",
-  description: "Sécurité et esthétisme pour sublimer votre propriété.",
+  title: "Portails",
+  description: "Portails sur mesure alliant sécurité, robustesse et élégance pour votre propriété.",
   image: portailImg
 }, {
-  title: "Mobilier Métal",
-  description: "Tables, étagères, consoles. Pièces uniques sur mesure.",
+  title: "Garde-corps",
+  description: "Garde-corps design pour escaliers, terrasses et balcons. Sécurité et esthétisme.",
+  image: gardeCorpsImg
+}, {
+  title: "Mobilier",
+  description: "Tables, étagères, consoles. Pièces uniques sur mesure en métal.",
   image: mobilierImg
 }];
 const ServicesSection = () => {
