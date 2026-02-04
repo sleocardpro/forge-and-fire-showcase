@@ -26,14 +26,16 @@ const ArtisanSection = () => {
             </h2>
 
             <div className="space-y-4 text-foreground/80 leading-relaxed">
-              <p>Basé à Cotignac, au cœur du Var, je mets mon savoir-faire et celui de mon équipe au service de vos projets depuis mon atelier.<strong className="text-foreground">Cotignac</strong>, au cœur du Var, 
+              <p>
+                Basé à <strong className="text-foreground">Cotignac</strong>, au cœur du Var, 
                 je mets mon savoir-faire au service de vos projets depuis mon atelier.
               </p>
               <p>
                 Chaque réalisation est le fruit d'un travail de <strong className="text-foreground">précision</strong>, 
                 alliant techniques traditionnelles de ferronnerie et design contemporain.
               </p>
-              <p>Du premier croquis à la pose finale, je vous accompagne pour créer des pièces uniques et durables, qu'elles soient de style provençal ou résolument moderne.<strong className="text-foreground">uniques et durables</strong>, 
+              <p>
+                Du premier croquis à la pose finale, je vous accompagne pour créer des pièces <strong className="text-foreground">uniques et durables</strong>, 
                 qu'elles soient de style provençal ou résolument moderne.
               </p>
             </div>
