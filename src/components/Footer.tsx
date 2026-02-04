@@ -62,7 +62,7 @@ const Footer = () => {
             <h3 className="font-display text-lg font-semibold text-foreground mb-2">
               Horaires
             </h3>
-            <p className="text-muted-foreground text-sm">Lun - Ven : 7h30 - 18h
+            <p className="text-muted-foreground text-sm">Lun - Ven : 7h3 - 18h
 Sam : Sur RDV<br />
               Sam : Sur RDV
             </p>
