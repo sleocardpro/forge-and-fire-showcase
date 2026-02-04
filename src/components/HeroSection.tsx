@@ -18,9 +18,8 @@ const HeroSection = () => {
       <div className="relative z-10 container text-center px-4 pt-20">
         <h1 className="font-display text-4xl md:text-5xl lg:text-7xl font-bold text-foreground mb-6 leading-tight opacity-0 animate-fade-in" style={{
         animationDelay: "0.2s"
-      }}>L'Art du métal à Cotignac
-        <br />
-          <span className="text-primary"></span> à Cotignac
+      }}>
+          L'Art du <span className="text-primary">métal</span> à Cotignac
         </h1>
         
         
