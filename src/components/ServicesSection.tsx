@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import verriereImg from "@/assets/gallery-verriere.jpg";
+import verriere1 from "@/assets/verriere-1.jpg";
 import portail2 from "@/assets/portail-2.jpg";
 import gardeCorpsImg from "@/assets/gallery-garde-corps.jpg";
 import mobilierImg from "@/assets/gallery-mobilier.jpg";
@@ -7,7 +7,7 @@ import mobilierImg from "@/assets/gallery-mobilier.jpg";
 const services = [{
   title: "Verrières & Cloisons",
   description: "Style atelier d'artiste, luminosité et modernité pour votre intérieur.",
-  image: verriereImg,
+  image: verriere1,
   slug: "verrieres-cloisons"
 }, {
   title: "Portails",
