@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import verriereImg from "@/assets/gallery-verriere.jpg";
-import portailImg from "@/assets/gallery-portail.jpg";
+import portail2 from "@/assets/portail-2.jpg";
 import gardeCorpsImg from "@/assets/gallery-garde-corps.jpg";
 import mobilierImg from "@/assets/gallery-mobilier.jpg";
 
@@ -12,7 +12,7 @@ const services = [{
 }, {
   title: "Portails",
   description: "Portails sur mesure alliant sécurité, robustesse et élégance pour votre propriété.",
-  image: portailImg,
+  image: portail2,
   slug: "portails"
 }, {
   title: "Garde-corps",
