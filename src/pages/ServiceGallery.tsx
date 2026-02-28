@@ -12,6 +12,12 @@ import escalierImg from "@/assets/gallery-escalier.jpg";
 import detailImg from "@/assets/gallery-detail.jpg";
 import weldingBlue from "@/assets/welding-blue.jpg";
 import weldingClose from "@/assets/welding-close.jpg";
+import portail1 from "@/assets/portail-1.jpg";
+import portail2 from "@/assets/portail-2.jpg";
+import portail3 from "@/assets/portail-3.jpg";
+import portail4 from "@/assets/portail-4.jpg";
+import portail5 from "@/assets/portail-5.jpg";
+import portail6 from "@/assets/portail-6.jpg";
 
 interface ServiceData {
   title: string;
@@ -28,7 +34,7 @@ const servicesData: Record<string, ServiceData> = {
   "portails": {
     title: "Portails",
     description: "Nos portails sur mesure alliant sécurité, robustesse et élégance pour sublimer l'entrée de votre propriété.",
-    images: [portailImg, weldingClose, detailImg]
+    images: [portail1, portail2, portail3, portail4, portail5, portail6]
   },
   "garde-corps": {
     title: "Garde-corps",
