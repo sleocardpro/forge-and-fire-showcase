@@ -4,12 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 // Images imports
-import gardeCorpsImg from "@/assets/gallery-garde-corps.jpg";
 import mobilierImg from "@/assets/gallery-mobilier.jpg";
-import escalierImg from "@/assets/gallery-escalier.jpg";
-import detailImg from "@/assets/gallery-detail.jpg";
-import weldingBlue from "@/assets/welding-blue.jpg";
-import weldingClose from "@/assets/welding-close.jpg";
 import portail1 from "@/assets/portail-1.jpg";
 import verriere1 from "@/assets/verriere-1.jpg";
 import verriere2 from "@/assets/verriere-2.jpg";
@@ -23,6 +18,16 @@ import portail3 from "@/assets/portail-3.jpg";
 import portail4 from "@/assets/portail-4.jpg";
 import portail5 from "@/assets/portail-5.jpg";
 import portail6 from "@/assets/portail-6.jpg";
+import escalierGc1 from "@/assets/escalier-gc-1.jpg";
+import escalierGc2 from "@/assets/escalier-gc-2.jpg";
+import escalierGc3 from "@/assets/escalier-gc-3.jpg";
+import escalierGc4 from "@/assets/escalier-gc-4.jpg";
+import escalierGc5 from "@/assets/escalier-gc-5.jpg";
+import escalierGc6 from "@/assets/escalier-gc-6.jpg";
+import escalierGc7 from "@/assets/escalier-gc-7.jpg";
+import escalierGc8 from "@/assets/escalier-gc-8.jpg";
+import escalierGc9 from "@/assets/escalier-gc-9.jpg";
+import escalierGc10 from "@/assets/escalier-gc-10.jpg";
 
 interface ServiceData {
   title: string;
@@ -41,15 +46,15 @@ const servicesData: Record<string, ServiceData> = {
     description: "Nos portails sur mesure alliant sécurité, robustesse et élégance pour sublimer l'entrée de votre propriété.",
     images: [portail1, portail2, portail3, portail4, portail5, portail6]
   },
-  "garde-corps": {
-    title: "Garde-corps",
-    description: "Garde-corps design pour escaliers, terrasses et balcons. Sécurité et esthétisme au service de votre habitat.",
-    images: [gardeCorpsImg, weldingBlue, detailImg]
+  "escaliers-garde-corps": {
+    title: "Escaliers & Garde-corps",
+    description: "Escaliers sur mesure et garde-corps design pour intérieurs et extérieurs. Sécurité et esthétisme au service de votre habitat.",
+    images: [escalierGc1, escalierGc2, escalierGc3, escalierGc4, escalierGc5, escalierGc6, escalierGc7, escalierGc8, escalierGc9, escalierGc10]
   },
-  "escaliers-mobilier": {
-    title: "Escaliers & Mobilier",
-    description: "Escaliers design, tables, étagères et consoles. Des pièces uniques sur mesure entièrement réalisées en métal.",
-    images: [escalierImg, mobilierImg, weldingClose]
+  "mobilier": {
+    title: "Mobilier",
+    description: "Tables, étagères et consoles. Des pièces uniques sur mesure entièrement réalisées en métal.",
+    images: [mobilierImg]
   }
 };
 

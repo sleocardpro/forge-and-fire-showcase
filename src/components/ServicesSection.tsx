@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import verriere1 from "@/assets/verriere-1.jpg";
 import portail2 from "@/assets/portail-2.jpg";
-import gardeCorpsImg from "@/assets/gallery-garde-corps.jpg";
+import escalierGc3 from "@/assets/escalier-gc-3.jpg";
 import mobilierImg from "@/assets/gallery-mobilier.jpg";
 
 const services = [{
@@ -15,15 +15,15 @@ const services = [{
   image: portail2,
   slug: "portails"
 }, {
-  title: "Garde-corps",
-  description: "Garde-corps design pour escaliers, terrasses et balcons. Sécurité et esthétisme.",
-  image: gardeCorpsImg,
-  slug: "garde-corps"
+  title: "Escaliers & Garde-corps",
+  description: "Escaliers sur mesure et garde-corps design pour intérieurs et extérieurs.",
+  image: escalierGc3,
+  slug: "escaliers-garde-corps"
 }, {
-  title: "Escaliers & Mobilier",
-  description: "Escaliers design, tables, étagères, consoles. Pièces uniques sur mesure en métal.",
+  title: "Mobilier",
+  description: "Tables, étagères, consoles. Pièces uniques sur mesure en métal.",
   image: mobilierImg,
-  slug: "escaliers-mobilier"
+  slug: "mobilier"
 }];
 
 const ServicesSection = () => {
