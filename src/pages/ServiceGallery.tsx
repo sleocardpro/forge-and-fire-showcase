@@ -28,6 +28,10 @@ import escalierGc7 from "@/assets/escalier-gc-7.jpg";
 import escalierGc8 from "@/assets/escalier-gc-8.jpg";
 import escalierGc9 from "@/assets/escalier-gc-9.jpg";
 import escalierGc10 from "@/assets/escalier-gc-10.jpg";
+import escalierGc11 from "@/assets/escalier-gc-11.jpg";
+import escalierGc12 from "@/assets/escalier-gc-12.jpg";
+import escalierGc13 from "@/assets/escalier-gc-13.jpg";
+import escalierGc14 from "@/assets/escalier-gc-14.jpg";
 
 interface ServiceData {
   title: string;
@@ -49,7 +53,7 @@ const servicesData: Record<string, ServiceData> = {
   "escaliers-garde-corps": {
     title: "Escaliers & Garde-corps",
     description: "Escaliers sur mesure et garde-corps design pour intérieurs et extérieurs. Sécurité et esthétisme au service de votre habitat.",
-    images: [escalierGc1, escalierGc2, escalierGc3, escalierGc4, escalierGc5, escalierGc6, escalierGc7, escalierGc8, escalierGc9, escalierGc10]
+    images: [escalierGc1, escalierGc2, escalierGc3, escalierGc4, escalierGc5, escalierGc6, escalierGc7, escalierGc8, escalierGc9, escalierGc10, escalierGc11, escalierGc12, escalierGc13, escalierGc14]
   },
   "mobilier": {
     title: "Mobilier",
