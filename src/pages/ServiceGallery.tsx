@@ -4,8 +4,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 // Images imports
-import verriereImg from "@/assets/gallery-verriere.jpg";
-import portailImg from "@/assets/gallery-portail.jpg";
 import gardeCorpsImg from "@/assets/gallery-garde-corps.jpg";
 import mobilierImg from "@/assets/gallery-mobilier.jpg";
 import escalierImg from "@/assets/gallery-escalier.jpg";
@@ -13,6 +11,13 @@ import detailImg from "@/assets/gallery-detail.jpg";
 import weldingBlue from "@/assets/welding-blue.jpg";
 import weldingClose from "@/assets/welding-close.jpg";
 import portail1 from "@/assets/portail-1.jpg";
+import verriere1 from "@/assets/verriere-1.jpg";
+import verriere2 from "@/assets/verriere-2.jpg";
+import verriere3 from "@/assets/verriere-3.jpg";
+import verriere4 from "@/assets/verriere-4.jpg";
+import verriere5 from "@/assets/verriere-5.jpg";
+import verriere6 from "@/assets/verriere-6.jpg";
+import verriere7 from "@/assets/verriere-7.jpg";
 import portail2 from "@/assets/portail-2.jpg";
 import portail3 from "@/assets/portail-3.jpg";
 import portail4 from "@/assets/portail-4.jpg";
@@ -29,7 +34,7 @@ const servicesData: Record<string, ServiceData> = {
   "verrieres-cloisons": {
     title: "Verrières & Cloisons",
     description: "Découvrez nos réalisations de verrières et cloisons style atelier, apportant luminosité et modernité à vos espaces intérieurs.",
-    images: [verriereImg, detailImg, weldingBlue]
+    images: [verriere1, verriere2, verriere3, verriere4, verriere5, verriere6, verriere7]
   },
   "portails": {
     title: "Portails",
