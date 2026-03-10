@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 // Images imports
-import mobilierImg from "@/assets/gallery-mobilier.jpg";
+import mobilier1 from "@/assets/mobilier-1.jpg";
 import portail1 from "@/assets/portail-1.jpg";
 import verriere1 from "@/assets/verriere-1.jpg";
 import verriere2 from "@/assets/verriere-2.jpg";
@@ -58,7 +58,7 @@ const servicesData: Record<string, ServiceData> = {
   "mobilier": {
     title: "Mobilier",
     description: "Tables, étagères et consoles. Des pièces uniques sur mesure entièrement réalisées en métal.",
-    images: [mobilierImg]
+    images: [mobilier1]
   }
 };
 
