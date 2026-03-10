@@ -1,39 +1,14 @@
 import { useState } from "react";
-import verriereImg from "@/assets/gallery-verriere.jpg";
-import escalierImg from "@/assets/gallery-escalier.jpg";
-import portailImg from "@/assets/gallery-portail.jpg";
-import mobilierImg from "@/assets/gallery-mobilier.jpg";
-import detailImg from "@/assets/gallery-detail.jpg";
-import gardeCorpsImg from "@/assets/gallery-garde-corps.jpg";
 import weldingBlueImg from "@/assets/welding-blue.jpg";
 import weldingCloseImg from "@/assets/welding-close.jpg";
+import artisanImg from "@/assets/artisan-measuring.jpg";
 const galleryImages = [{
-  src: verriereImg,
-  alt: "Verrière style atelier",
-  tall: true
-}, {
-  src: escalierImg,
-  alt: "Escalier hélicoïdal",
-  tall: true
-}, {
   src: weldingBlueImg,
   alt: "Soudure à l'arc",
-  tall: false
+  tall: true
 }, {
-  src: portailImg,
-  alt: "Portail provençal",
-  tall: false
-}, {
-  src: detailImg,
-  alt: "Détail de soudure",
-  tall: false
-}, {
-  src: mobilierImg,
-  alt: "Table industrielle",
-  tall: false
-}, {
-  src: gardeCorpsImg,
-  alt: "Garde-corps moderne",
+  src: artisanImg,
+  alt: "L'artisan au travail",
   tall: true
 }, {
   src: weldingCloseImg,
