@@ -5,6 +5,11 @@ import Footer from "@/components/Footer";
 
 // Images imports
 import mobilier1 from "@/assets/mobilier-1.jpg";
+import mobilier2 from "@/assets/mobilier-2.jpg";
+import mobilier3 from "@/assets/mobilier-3.jpg";
+import mobilier4 from "@/assets/mobilier-4.jpg";
+import mobilier5 from "@/assets/mobilier-5.jpg";
+import mobilier6 from "@/assets/mobilier-6.jpg";
 import portail1 from "@/assets/portail-1.jpg";
 import verriere1 from "@/assets/verriere-1.jpg";
 import verriere2 from "@/assets/verriere-2.jpg";
