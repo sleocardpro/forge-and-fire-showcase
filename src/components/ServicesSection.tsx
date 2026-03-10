@@ -22,7 +22,7 @@ const services = [{
 }, {
   title: "Mobilier",
   description: "Tables, étagères, consoles. Pièces uniques sur mesure en métal.",
-  image: mobilierImg,
+  image: mobilier1,
   slug: "mobilier"
 }];
 
