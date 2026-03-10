@@ -37,6 +37,9 @@ import escalierGc11 from "@/assets/escalier-gc-11.jpg";
 import escalierGc12 from "@/assets/escalier-gc-12.jpg";
 import escalierGc13 from "@/assets/escalier-gc-13.jpg";
 import escalierGc14 from "@/assets/escalier-gc-14.jpg";
+import pergola1 from "@/assets/pergola-1.jpg";
+import pergola2 from "@/assets/pergola-2.jpg";
+import pergola3 from "@/assets/pergola-3.jpg";
 
 interface ServiceData {
   title: string;
@@ -64,6 +67,11 @@ const servicesData: Record<string, ServiceData> = {
     title: "Mobilier",
     description: "Tables, étagères et consoles. Des pièces uniques sur mesure entièrement réalisées en métal.",
     images: [mobilier1, mobilier2, mobilier3, mobilier4, mobilier5, mobilier6]
+  },
+  "pergolas": {
+    title: "Pergolas",
+    description: "Pergolas sur mesure en métal, conçues pour sublimer vos terrasses et jardins avec élégance et robustesse.",
+    images: [pergola1, pergola2, pergola3]
   }
 };
 

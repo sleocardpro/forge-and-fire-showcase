@@ -3,6 +3,7 @@ import verriere1 from "@/assets/verriere-1.jpg";
 import portail2 from "@/assets/portail-2.jpg";
 import escalierGc3 from "@/assets/escalier-gc-3.jpg";
 import mobilier1 from "@/assets/mobilier-1.jpg";
+import pergola1 from "@/assets/pergola-1.jpg";
 
 const services = [{
   title: "Verrières & Cloisons",
@@ -24,6 +25,11 @@ const services = [{
   description: "Tables, étagères, consoles. Pièces uniques sur mesure en métal.",
   image: mobilier1,
   slug: "mobilier"
+}, {
+  title: "Pergolas",
+  description: "Pergolas sur mesure en métal pour sublimer vos espaces extérieurs.",
+  image: pergola1,
+  slug: "pergolas"
 }];
 
 const ServicesSection = () => {
