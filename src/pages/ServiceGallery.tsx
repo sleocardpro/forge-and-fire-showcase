@@ -63,7 +63,7 @@ const servicesData: Record<string, ServiceData> = {
   "mobilier": {
     title: "Mobilier",
     description: "Tables, étagères et consoles. Des pièces uniques sur mesure entièrement réalisées en métal.",
-    images: [mobilier1]
+    images: [mobilier1, mobilier2, mobilier3, mobilier4, mobilier5, mobilier6]
   }
 };
 
