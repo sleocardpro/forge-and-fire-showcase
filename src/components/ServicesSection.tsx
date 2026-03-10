@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import verriere1 from "@/assets/verriere-1.jpg";
 import portail2 from "@/assets/portail-2.jpg";
 import escalierGc3 from "@/assets/escalier-gc-3.jpg";
-import mobilierImg from "@/assets/gallery-mobilier.jpg";
+import mobilier1 from "@/assets/mobilier-1.jpg";
 
 const services = [{
   title: "Verrières & Cloisons",
