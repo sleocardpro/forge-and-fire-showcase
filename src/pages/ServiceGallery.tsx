@@ -99,14 +99,15 @@ const ServiceGallery = () => {
           {/* Back link */}
           <Link 
             to="/#savoir-faire" 
-            className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors mb-8 opacity-0 animate-fade-in"
+            style={{ animationDelay: "0.1s" }}
           >
             <ArrowLeft className="h-4 w-4" />
             Retour au savoir-faire
           </Link>
 
           {/* Header */}
-          <div className="mb-12">
+          <div className="mb-12 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
               {service.title}
             </h1>
@@ -120,26 +121,27 @@ const ServiceGallery = () => {
             {service.images.map((image, index) => (
               <div 
                 key={index}
-                className="break-inside-avoid group relative overflow-hidden rounded-xl"
+                className="break-inside-avoid group relative overflow-hidden rounded-xl opacity-0 animate-fade-in-up"
+                style={{ animationDelay: `${0.3 + index * 0.1}s` }}
               >
                 <img 
                   src={image} 
                   alt={`${service.title} - Réalisation ${index + 1}`}
-                  className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full object-cover transition-all duration-700 group-hover:scale-105 group-hover:brightness-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             ))}
           </div>
 
           {/* CTA */}
-          <div className="mt-16 text-center">
+          <div className="mt-16 text-center opacity-0 animate-fade-in-up" style={{ animationDelay: "0.8s" }}>
             <p className="text-muted-foreground mb-6">
               Vous avez un projet similaire ? Contactez-moi pour en discuter.
             </p>
             <a 
               href="/#contact" 
-              className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-0.5"
             >
               Demander un devis
             </a>
