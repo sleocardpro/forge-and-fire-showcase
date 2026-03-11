@@ -28,8 +28,8 @@ const HeroSection = () => {
         animationDelay: "0.6s"
       }}>
           <Button variant="outline" size="lg" className="btn-outline-light group w-full sm:w-auto" asChild>
-            <a href="#galerie" className="flex items-center gap-2">
-              Voir mes réalisations
+             <a href="#savoir-faire" className="flex items-center gap-2">
+              Voir nos réalisations
               <ArrowDown className="h-4 w-4 group-hover:translate-y-1 transition-transform" />
             </a>
           </Button>
@@ -37,7 +37,7 @@ const HeroSection = () => {
           <Button size="lg" className="btn-fire w-full sm:w-auto flex items-center gap-2" asChild>
             <a href="#contact">
               <MessageCircle className="h-4 w-4" />
-              Me contacter
+              Nous contacter
             </a>
           </Button>
         </div>
