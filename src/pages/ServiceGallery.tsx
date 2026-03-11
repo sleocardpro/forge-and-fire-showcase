@@ -137,7 +137,7 @@ const ServiceGallery = () => {
           {/* CTA */}
           <div className="mt-16 text-center opacity-0 animate-fade-in-up" style={{ animationDelay: "0.8s" }}>
             <p className="text-muted-foreground mb-6">
-              Vous avez un projet similaire ? Contactez-moi pour en discuter.
+              Vous avez un projet similaire ? Contactez-nous pour en discuter.
             </p>
             <a 
               href="/#contact" 

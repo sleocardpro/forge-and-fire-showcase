@@ -35,7 +35,7 @@ const ArtisanSection = () => {
                 alliant techniques traditionnelles de ferronnerie et design contemporain.
               </p>
               <p>
-                Du premier croquis à la pose finale, je vous accompagne pour créer des pièces <strong className="text-foreground">uniques et durables</strong>, 
+                Du premier croquis à la pose finale, nous vous accompagnons pour créer des pièces <strong className="text-foreground">uniques et durables</strong>, 
                 qu'elles soient de style provençal ou résolument moderne.
               </p>
             </div>

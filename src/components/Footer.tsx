@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="container py-16 md:py-20">
         <div className="text-center mb-12">
           <h2 className="section-title text-foreground mb-4">
-            <span className="text-primary">Contactez</span>-moi
+            <span className="text-primary">Contactez</span>-nous
           </h2>
           <p className="text-muted-foreground max-w-md mx-auto">
             Un projet en tête ? Demandez votre devis gratuit et sans engagement.
