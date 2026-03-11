@@ -31,8 +31,9 @@ const ArtisanSection = () => {
                 mes équipes et moi mettons notre savoir-faire au service de vos projets depuis notre atelier.
               </p>
               <p>
-                Chaque réalisation est le fruit d'un travail de <strong className="text-foreground">précision</strong>, 
-                alliant techniques traditionnelles de ferronnerie et design contemporain.
+                Forts de plus de <strong className="text-foreground">10 ans d'expérience</strong> et animés par une véritable passion pour la ferronnerie, 
+                chaque réalisation est le fruit d'un travail de <strong className="text-foreground">précision</strong>, 
+                alliant techniques traditionnelles et design contemporain.
               </p>
               <p>
                 Du premier croquis à la pose finale, nous vous accompagnons pour créer des pièces <strong className="text-foreground">uniques et durables</strong>, 
