@@ -39,10 +39,10 @@ const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="section-title text-foreground mb-4">
-            Mon <span className="text-primary">savoir-faire</span>
+            Notre <span className="text-primary">savoir-faire</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Chaque projet est unique, réalisé avec passion et précision dans mon atelier à Cotignac.
+            Chaque projet est unique, réalisé avec passion et précision dans notre atelier à Cotignac.
           </p>
           <p className="text-muted-foreground/70 text-sm mt-3 italic">
             👉 Cliquez sur une catégorie pour découvrir toutes nos réalisations en photos

@@ -2,7 +2,7 @@ import { Pencil, Ruler, Hammer, CheckCircle } from "lucide-react";
 const steps = [{
   icon: Pencil,
   title: "Écoute & Croquis",
-  description: "Nous échangeons sur votre projet. Je réalise des croquis 2D ou sur papier pour concrétiser votre vision."
+  description: "Nous échangeons sur votre projet. Nous réalisons des croquis 2D ou sur papier pour concrétiser votre vision."
 }, {
   icon: Ruler,
   title: "Conception",
@@ -21,10 +21,10 @@ const ProcessSection = () => {
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="section-title text-foreground mb-4">
-            Mon <span className="text-primary">processus</span>
+            Notre <span className="text-primary">processus</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            De l'idée à la réalisation, je vous accompagne à chaque étape pour créer une pièce unique qui vous ressemble.
+            De l'idée à la réalisation, nous vous accompagnons à chaque étape pour créer une pièce unique qui vous ressemble.
           </p>
         </div>
 
