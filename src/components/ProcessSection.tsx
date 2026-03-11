@@ -2,7 +2,7 @@ import { Pencil, Ruler, Hammer, CheckCircle } from "lucide-react";
 const steps = [{
   icon: Pencil,
   title: "Écoute & Croquis",
-  description: "Nous échangeons sur votre projet. Je réalise des croquis 2D ou sur papier pour concrétiser votre vision."
+  description: "Nous échangeons sur votre projet. Nous réalisons des croquis 2D ou sur papier pour concrétiser votre vision."
 }, {
   icon: Ruler,
   title: "Conception",
