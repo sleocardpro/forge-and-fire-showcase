@@ -1,19 +1,32 @@
 import { MapPin, Shield } from "lucide-react";
 import artisanImg from "@/assets/artisan-measuring.jpg";
+import weldingBlueImg from "@/assets/welding-blue.jpg";
+import weldingCloseImg from "@/assets/welding-close.jpg";
+
 const ArtisanSection = () => {
-  return <section id="artisan" className="py-20 md:py-28 bg-background">
+  return (
+    <section id="artisan" className="py-20 md:py-28 bg-background">
       <div className="container">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Image */}
-          <div className="relative">
+          {/* Images */}
+          <div className="relative space-y-4">
             <div className="relative overflow-hidden rounded-xl">
               <img src={artisanImg} alt="L'artisan métallier au travail" className="w-full h-auto object-cover" />
-              {/* Glow effect */}
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent pointer-events-none" />
             </div>
             
+            {/* Welding photos row */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="overflow-hidden rounded-xl">
+                <img src={weldingBlueImg} alt="Soudure à l'arc" className="w-full h-40 object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+              <div className="overflow-hidden rounded-xl">
+                <img src={weldingCloseImg} alt="Travail de précision" className="w-full h-40 object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+            </div>
+
             {/* Badge */}
-            <div className="absolute -bottom-4 -right-4 md:bottom-6 md:right-6 bg-primary text-primary-foreground px-4 py-3 rounded-lg shadow-lg flex items-center gap-2">
+            <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-4 py-3 rounded-lg shadow-lg flex items-center gap-2">
               <MapPin className="h-5 w-5" />
               <span className="font-semibold text-sm">Cotignac, Var</span>
             </div>
@@ -46,13 +59,10 @@ const ArtisanSection = () => {
               <Shield className="h-5 w-5 text-primary" />
               <span className="text-foreground font-medium">Intervention dans tout le Var et alentours</span>
             </div>
-
-            {/* Zones */}
-            <p className="text-muted-foreground text-sm">
-          </p>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default ArtisanSection;

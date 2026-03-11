@@ -37,7 +37,7 @@ const HeroSection = () => {
           <Button size="lg" className="btn-fire w-full sm:w-auto flex items-center gap-2" asChild>
             <a href="#contact">
               <MessageCircle className="h-4 w-4" />
-              Me contacter
+              Nous contacter
             </a>
           </Button>
         </div>
