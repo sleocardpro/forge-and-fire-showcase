@@ -44,6 +44,9 @@ const ServicesSection = () => {
           <p className="text-muted-foreground max-w-xl mx-auto">
             Chaque projet est unique, réalisé avec passion et précision dans mon atelier à Cotignac.
           </p>
+          <p className="text-muted-foreground/70 text-sm mt-3 italic">
+            👉 Cliquez sur une catégorie pour découvrir toutes nos réalisations en photos
+          </p>
         </div>
 
         {/* Services Grid */}
