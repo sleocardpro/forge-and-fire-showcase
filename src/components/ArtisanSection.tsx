@@ -28,7 +28,7 @@ const ArtisanSection = () => {
             <div className="space-y-4 text-foreground/80 leading-relaxed">
               <p>
                 Basé à <strong className="text-foreground">Cotignac</strong>, au cœur du Var, 
-                je mets mon savoir-faire au service de vos projets depuis mon atelier.
+                mes équipes et moi mettons notre savoir-faire au service de vos projets depuis notre atelier.
               </p>
               <p>
                 Chaque réalisation est le fruit d'un travail de <strong className="text-foreground">précision</strong>, 
