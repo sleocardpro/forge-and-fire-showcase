@@ -4,15 +4,15 @@ import weldingCloseImg from "@/assets/welding-close.jpg";
 import artisanImg from "@/assets/artisan-measuring.jpg";
 const galleryImages = [{
   src: weldingBlueImg,
-  alt: "Soudure à l'arc",
+  alt: "Soudure à l'arc sur pièce en acier dans l'atelier Ferronnerie Tornato à Cotignac",
   tall: true
 }, {
   src: artisanImg,
-  alt: "L'artisan au travail",
+  alt: "Artisan ferronnier prenant les mesures pour une création métallique sur mesure à Cotignac",
   tall: true
 }, {
   src: weldingCloseImg,
-  alt: "Travail de précision",
+  alt: "Travail de précision sur soudure de ferronnerie d'art dans le Var",
   tall: false
 }];
 const GallerySection = () => {
