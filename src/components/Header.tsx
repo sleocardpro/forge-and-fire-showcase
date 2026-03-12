@@ -13,7 +13,7 @@ const Header = () => {
         {/* CTA Buttons */}
         <div className="flex items-center gap-2 md:gap-4">
           <Button variant="ghost" size="icon" className="md:hidden text-foreground hover:text-primary hover:bg-primary/10" asChild>
-            <a href="tel:+33600000000" aria-label="Appeler">
+            <a href="tel:+33640406287" aria-label="Appeler">
               <Phone className="h-5 w-5" />
             </a>
           </Button>
