@@ -19,7 +19,7 @@ const Header = () => {
           </Button>
           
           <Button variant="outline" className="hidden md:flex items-center gap-2 border-foreground/30 text-foreground hover:bg-foreground hover:text-background transition-all duration-300" asChild>
-            <a href="tel:+33600000000">
+            <a href="tel:+33640406287">
               <Phone className="h-4 w-4" />
               <span>06 40 40 62 87</span>
             </a>
