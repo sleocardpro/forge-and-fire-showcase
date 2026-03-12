@@ -9,26 +9,31 @@ const services = [{
   title: "Verrières & Cloisons",
   description: "Style atelier d'artiste, luminosité et modernité pour votre intérieur.",
   image: verriere1,
+  alt: "Verrière style atelier en acier noir sur mesure réalisée par Ferronnerie Tornato à Cotignac",
   slug: "verrieres-cloisons"
 }, {
   title: "Portails",
   description: "Portails sur mesure alliant sécurité, robustesse et élégance pour votre propriété.",
   image: portail2,
+  alt: "Portail en fer forgé noir sur mesure installé à Cotignac par Ferronnerie Tornato",
   slug: "portails"
 }, {
   title: "Escaliers & Garde-corps",
   description: "Escaliers sur mesure et garde-corps design pour intérieurs et extérieurs.",
   image: escalierGc3,
+  alt: "Escalier métallique avec garde-corps en fer forgé design réalisé par ferronnier à Cotignac",
   slug: "escaliers-garde-corps"
 }, {
   title: "Mobilier",
   description: "Tables, étagères, consoles. Pièces uniques sur mesure en métal.",
   image: mobilier1,
+  alt: "Mobilier en métal sur mesure - table et étagère artisanale Ferronnerie Tornato Cotignac",
   slug: "mobilier"
 }, {
   title: "Pergolas",
   description: "Pergolas sur mesure en métal pour sublimer vos espaces extérieurs.",
   image: pergola1,
+  alt: "Pergola en métal sur mesure pour terrasse extérieure réalisée à Cotignac dans le Var",
   slug: "pergolas"
 }];
 
