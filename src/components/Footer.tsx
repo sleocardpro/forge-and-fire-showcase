@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
 
           {/* Email */}
-          <a href="mailto:contact@ferronnerie-tornato.fr" className="card-forge p-6 rounded-xl text-center group">
+          <a href="mailto:ferronnerietornato@gmail.com" className="card-forge p-6 rounded-xl text-center group">
             <div className="inline-flex items-center justify-center w-14 h-14 bg-primary/10 rounded-full mb-4 group-hover:bg-primary/20 transition-colors">
               <Mail className="h-6 w-6 text-primary" />
             </div>
