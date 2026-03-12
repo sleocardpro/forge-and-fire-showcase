@@ -11,7 +11,7 @@ const ArtisanSection = () => {
           {/* Images */}
           <div className="relative space-y-4">
             <div className="relative overflow-hidden rounded-xl">
-              <img src={artisanImg} alt="L'artisan métallier au travail" className="w-full h-auto object-cover" />
+              <img src={artisanImg} alt="Artisan ferronnier Ferronnerie Tornato mesurant une pièce métallique sur mesure dans son atelier à Cotignac" className="w-full h-auto object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent pointer-events-none" />
             </div>
             
