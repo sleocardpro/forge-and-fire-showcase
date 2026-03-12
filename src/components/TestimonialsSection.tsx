@@ -22,7 +22,7 @@ const TestimonialsSection = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="section-title text-foreground mb-4">
-            La satisfaction de <span className="text-primary">nos clients</span>
+            Avis clients <span className="text-primary">ferronnerie</span> Cotignac
           </h2>
           <p className="text-muted-foreground max-w-md mx-auto">
             Retrouvez nos avis vérifiés sur Google.

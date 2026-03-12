@@ -35,7 +35,7 @@ const ArtisanSection = () => {
           {/* Content */}
           <div className="space-y-6">
             <h2 className="section-title text-foreground">
-              L'<span className="text-primary">Artisan</span>
+              Artisan <span className="text-primary">ferronnier</span> d'art
             </h2>
 
             <div className="space-y-4 text-foreground/80 leading-relaxed">

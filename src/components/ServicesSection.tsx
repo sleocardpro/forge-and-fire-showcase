@@ -39,7 +39,7 @@ const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="section-title text-foreground mb-4">
-            Notre <span className="text-primary">savoir-faire</span>
+            Portails en fer forgé, <span className="text-primary">verrières</span> & créations métalliques
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
             Chaque projet est unique, réalisé avec passion et précision dans notre atelier à Cotignac.

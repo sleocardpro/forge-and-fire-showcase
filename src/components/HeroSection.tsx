@@ -19,7 +19,7 @@ const HeroSection = () => {
         <h1 className="font-display text-4xl md:text-5xl lg:text-7xl font-bold text-foreground mb-6 leading-tight opacity-0 animate-fade-in" style={{
         animationDelay: "0.2s"
       }}>
-          L'Art du <span className="text-primary">métal</span> à Cotignac
+          Ferronnerie <span className="text-primary">sur mesure</span> à Cotignac
         </h1>
         
         

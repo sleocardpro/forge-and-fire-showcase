@@ -22,7 +22,7 @@ const GallerySection = () => {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="section-title text-foreground mb-4">
-            La <span className="text-primary">galerie</span>
+            Nos <span className="text-primary">réalisations</span> en ferronnerie
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
             Découvrez mes réalisations : un savoir-faire artisanal au service de vos projets.
