@@ -45,33 +45,39 @@ interface ServiceData {
   title: string;
   description: string;
   images: string[];
+  altPrefix: string;
 }
 
 const servicesData: Record<string, ServiceData> = {
   "verrieres-cloisons": {
     title: "Verrières & Cloisons",
     description: "Découvrez nos réalisations de verrières et cloisons style atelier, apportant luminosité et modernité à vos espaces intérieurs.",
-    images: [verriere1, verriere2, verriere3, verriere4, verriere5, verriere6, verriere7]
+    images: [verriere1, verriere2, verriere3, verriere4, verriere5, verriere6, verriere7],
+    altPrefix: "Verrière style atelier en acier sur mesure Ferronnerie Tornato Cotignac"
   },
   "portails": {
     title: "Portails",
     description: "Nos portails sur mesure alliant sécurité, robustesse et élégance pour sublimer l'entrée de votre propriété.",
-    images: [portail1, portail2, portail3, portail4, portail5, portail6]
+    images: [portail1, portail2, portail3, portail4, portail5, portail6],
+    altPrefix: "Portail en fer forgé sur mesure fabriqué par Ferronnerie Tornato à Cotignac"
   },
   "escaliers-garde-corps": {
     title: "Escaliers & Garde-corps",
     description: "Escaliers sur mesure et garde-corps design pour intérieurs et extérieurs. Sécurité et esthétisme au service de votre habitat.",
-    images: [escalierGc1, escalierGc2, escalierGc3, escalierGc4, escalierGc5, escalierGc6, escalierGc7, escalierGc8, escalierGc9, escalierGc10, escalierGc11, escalierGc12, escalierGc13, escalierGc14]
+    images: [escalierGc1, escalierGc2, escalierGc3, escalierGc4, escalierGc5, escalierGc6, escalierGc7, escalierGc8, escalierGc9, escalierGc10, escalierGc11, escalierGc12, escalierGc13, escalierGc14],
+    altPrefix: "Escalier métallique et garde-corps en fer forgé artisanal Cotignac"
   },
   "mobilier": {
     title: "Mobilier",
     description: "Tables, étagères et consoles. Des pièces uniques sur mesure entièrement réalisées en métal.",
-    images: [mobilier1, mobilier2, mobilier3, mobilier4, mobilier5, mobilier6]
+    images: [mobilier1, mobilier2, mobilier3, mobilier4, mobilier5, mobilier6],
+    altPrefix: "Mobilier en métal sur mesure création artisanale Ferronnerie Tornato"
   },
   "pergolas": {
     title: "Pergolas",
     description: "Pergolas sur mesure en métal, conçues pour sublimer vos terrasses et jardins avec élégance et robustesse.",
-    images: [pergola1, pergola2, pergola3]
+    images: [pergola1, pergola2, pergola3],
+    altPrefix: "Pergola en métal sur mesure pour extérieur réalisée à Cotignac Var"
   }
 };
 
@@ -126,7 +132,7 @@ const ServiceGallery = () => {
               >
                 <img 
                   src={image} 
-                  alt={`${service.title} - Réalisation ${index + 1}`}
+                  alt={`${service.altPrefix} - réalisation ${index + 1}`}
                   className="w-full object-cover transition-all duration-700 group-hover:scale-105 group-hover:brightness-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />

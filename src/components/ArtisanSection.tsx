@@ -11,17 +11,17 @@ const ArtisanSection = () => {
           {/* Images */}
           <div className="relative space-y-4">
             <div className="relative overflow-hidden rounded-xl">
-              <img src={artisanImg} alt="L'artisan métallier au travail" className="w-full h-auto object-cover" />
+              <img src={artisanImg} alt="Artisan ferronnier Ferronnerie Tornato mesurant une pièce métallique sur mesure dans son atelier à Cotignac" className="w-full h-auto object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent pointer-events-none" />
             </div>
             
             {/* Welding photos row */}
             <div className="grid grid-cols-2 gap-4">
               <div className="overflow-hidden rounded-xl">
-                <img src={weldingBlueImg} alt="Soudure à l'arc" className="w-full h-40 object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={weldingBlueImg} alt="Soudure à l'arc bleue sur acier pour portail en fer forgé à Cotignac" className="w-full h-40 object-cover hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="overflow-hidden rounded-xl">
-                <img src={weldingCloseImg} alt="Travail de précision" className="w-full h-40 object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={weldingCloseImg} alt="Détail de soudure de précision sur garde-corps en fer forgé artisanal" className="w-full h-40 object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             </div>
 
