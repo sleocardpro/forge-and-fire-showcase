@@ -45,6 +45,7 @@ interface ServiceData {
   title: string;
   description: string;
   images: string[];
+  altPrefix: string;
 }
 
 const servicesData: Record<string, ServiceData> = {
