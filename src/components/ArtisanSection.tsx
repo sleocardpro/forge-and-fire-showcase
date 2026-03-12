@@ -18,7 +18,7 @@ const ArtisanSection = () => {
             {/* Welding photos row */}
             <div className="grid grid-cols-2 gap-4">
               <div className="overflow-hidden rounded-xl">
-                <img src={weldingBlueImg} alt="Soudure à l'arc" className="w-full h-40 object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={weldingBlueImg} alt="Soudure à l'arc bleue sur acier pour portail en fer forgé à Cotignac" className="w-full h-40 object-cover hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="overflow-hidden rounded-xl">
                 <img src={weldingCloseImg} alt="Travail de précision" className="w-full h-40 object-cover hover:scale-105 transition-transform duration-500" />
