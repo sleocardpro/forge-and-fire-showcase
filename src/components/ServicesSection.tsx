@@ -70,7 +70,7 @@ const ServicesSection = () => {
                 <div className="relative h-48 md:h-56 overflow-hidden">
                   <img
                     src={service.image}
-                    alt={service.title}
+                    alt={service.alt}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />

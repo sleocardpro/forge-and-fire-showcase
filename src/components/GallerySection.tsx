@@ -42,7 +42,7 @@ const GallerySection = () => {
           <button className="absolute top-4 right-4 text-foreground/60 hover:text-foreground text-4xl" onClick={() => setSelectedImage(null)}>
             ×
           </button>
-          <img src={selectedImage} alt="Vue agrandie" className="max-w-full max-h-[90vh] object-contain rounded-lg" />
+          <img src={selectedImage} alt="Réalisation ferronnerie d'art Tornato - vue agrandie" className="max-w-full max-h-[90vh] object-contain rounded-lg" />
         </div>}
     </section>;
 };
