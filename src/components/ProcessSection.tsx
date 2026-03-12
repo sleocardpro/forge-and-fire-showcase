@@ -21,7 +21,7 @@ const ProcessSection = () => {
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="section-title text-foreground mb-4">
-            Notre <span className="text-primary">processus</span>
+            Garde-corps, escaliers & <span className="text-primary">mobilier</span> sur mesure
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             De l'idée à la réalisation, nous vous accompagnons à chaque étape pour créer une pièce unique qui vous ressemble.
